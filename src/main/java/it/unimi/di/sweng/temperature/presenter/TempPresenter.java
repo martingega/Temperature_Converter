@@ -18,7 +18,8 @@ public class TempPresenter implements Presenter {
 
     @Override
     public void update(@NotNull Observable<Double> subject, @NotNull Double state) {
-
+        double scaledTemp = scale.convertFromCelsius(state);
+        view.setValue(Double.toString(scaledTemp));
     }
 
     @Override
