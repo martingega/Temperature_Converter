@@ -19,7 +19,7 @@ public class TemperatureModel implements Model {
 
   @Override
   public @NotNull Double getState() {
-    return null;
+    return getTemp();
   }
 
   @Override
