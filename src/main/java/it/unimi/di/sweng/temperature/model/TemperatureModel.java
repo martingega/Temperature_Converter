@@ -9,6 +9,7 @@ public class TemperatureModel implements Model {
 
   private double val = 0.0;
   private final List<Observer<Double>> observers = new ArrayList<>();
+  public static final double PRECISION = 0.01;
 
   @Override
   public void notifyObservers() {
@@ -34,7 +35,7 @@ public class TemperatureModel implements Model {
 
   @Override
   public void setTemp(double temp) {
-    if (Math.abs(val - temp) >= 0.01) {
+    if (Math.abs(val - temp) >= PRECISION) {
       val = temp;
       notifyObservers();
     }
