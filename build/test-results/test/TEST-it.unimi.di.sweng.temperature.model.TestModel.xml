@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="it.unimi.di.sweng.temperature.model.TestModel" tests="3" skipped="2" failures="0" errors="0" timestamp="2024-01-18T11:03:12" hostname="Martins-Air.wind3.hub" time="0.027">
+<testsuite name="it.unimi.di.sweng.temperature.model.TestModel" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-01-18T11:06:18" hostname="Martins-Air.wind3.hub" time="0.521">
   <properties/>
-  <testcase name="testNotifyObservers()" classname="it.unimi.di.sweng.temperature.model.TestModel" time="0.0">
-    <skipped/>
-  </testcase>
-  <testcase name="testNotifyObserversOnlyIfChanged()" classname="it.unimi.di.sweng.temperature.model.TestModel" time="0.0">
-    <skipped/>
-  </testcase>
-  <testcase name="testSetterGetter()" classname="it.unimi.di.sweng.temperature.model.TestModel" time="0.025"/>
+  <testcase name="testNotifyObservers()" classname="it.unimi.di.sweng.temperature.model.TestModel" time="0.521"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

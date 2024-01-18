@@ -22,7 +22,6 @@ public class TestModel {
   }
 
   @Test
-  @Disabled
   public void testNotifyObservers() {
     Observer<Double> obs =  mock(Observer.class);
     Observer<Double> obs1 = mock(Observer.class);
