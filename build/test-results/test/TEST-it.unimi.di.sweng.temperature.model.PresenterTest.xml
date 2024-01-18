@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="it.unimi.di.sweng.temperature.model.PresenterTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-01-18T11:25:55" hostname="Martins-Air.wind3.hub" time="0.49">
+<testsuite name="it.unimi.di.sweng.temperature.model.PresenterTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2024-01-18T11:27:08" hostname="Martins-Air.wind3.hub" time="0.55">
   <properties/>
-  <testcase name="updateTest()" classname="it.unimi.di.sweng.temperature.model.PresenterTest" time="0.49"/>
+  <testcase name="updateModel()" classname="it.unimi.di.sweng.temperature.model.PresenterTest" time="0.541"/>
+  <testcase name="updateTest()" classname="it.unimi.di.sweng.temperature.model.PresenterTest" time="0.005"/>
+  <testcase name="update2DigitTest()" classname="it.unimi.di.sweng.temperature.model.PresenterTest" time="0.002"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

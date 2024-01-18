@@ -4,7 +4,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d8e56c89-f016-47d6-8363-f4fb7e11b880" name="Changes" comment="commit unversioned files" />
+    <list default="true" id="d8e56c89-f016-47d6-8363-f4fb7e11b880" name="Changes" comment="Presenter fa update corretto">
+      <change beforePath="$PROJECT_DIR$/.gradle/7.6/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.6/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.6/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.6/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.6/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.6/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.6/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.6/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.6/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.6/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/it/unimi/di/sweng/temperature/presenter/TempPresenter.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/it/unimi/di/sweng/temperature/presenter/TempPresenter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/it/unimi/di/sweng/temperature/model/PresenterTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/it/unimi/di/sweng/temperature/model/PresenterTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/it.unimi.di.sweng.temperature.model.PresenterTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/it.unimi.di.sweng.temperature.model.PresenterTest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/it.unimi.di.sweng.temperature.model.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/it.unimi.di.sweng.temperature.model.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-it.unimi.di.sweng.temperature.model.PresenterTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-it.unimi.di.sweng.temperature.model.PresenterTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/TempPresenter.class.uniqueId0" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/TempPresenter.class.uniqueId0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileTestJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileTestJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/it/unimi/di/sweng/temperature/presenter/TempPresenter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/it/unimi/di/sweng/temperature/presenter/TempPresenter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/it/unimi/di/sweng/temperature/model/PresenterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/it/unimi/di/sweng/temperature/model/PresenterTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +34,16 @@
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view />
+      </state>
+    </system>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -88,6 +118,29 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="PresenterTest.update2DigitTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;it.unimi.di.sweng.temperature.model.PresenterTest.update2DigitTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
     <configuration name="PresenterTest.updateModel" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -111,7 +164,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="TestModel.testNotifyObservers" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="PresenterTest.updateTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -124,30 +177,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;it.unimi.di.sweng.temperature.model.TestModel.testNotifyObservers&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="TestModel.testNotifyObserversOnlyIfChanged" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;it.unimi.di.sweng.temperature.model.TestModel.testNotifyObserversOnlyIfChanged&quot;" />
+            <option value="&quot;it.unimi.di.sweng.temperature.model.PresenterTest.updateTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -160,10 +190,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Gradle.PresenterTest" />
+        <item itemvalue="Gradle.PresenterTest.update2DigitTest" />
+        <item itemvalue="Gradle.PresenterTest.updateTest" />
         <item itemvalue="Gradle.PresenterTest.updateModel" />
         <item itemvalue="Gradle.FahrenheitScaleTest" />
-        <item itemvalue="Gradle.TestModel.testNotifyObserversOnlyIfChanged" />
-        <item itemvalue="Gradle.TestModel.testNotifyObservers" />
       </list>
     </recent_temporary>
   </component>
@@ -239,7 +269,21 @@
       <option name="project" value="LOCAL" />
       <updated>1705576905421</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Presenter fa updateModel corretto">
+      <created>1705577094578</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1705577094578</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Presenter fa update corretto">
+      <created>1705577171149</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1705577171149</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -263,6 +307,8 @@
     <MESSAGE value="funzionano conversioni" />
     <MESSAGE value="implementato SINGLETON pattern per Fahrenheit strategy" />
     <MESSAGE value="commit unversioned files" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit unversioned files" />
+    <MESSAGE value="Presenter fa updateModel corretto" />
+    <MESSAGE value="Presenter fa update corretto" />
+    <option name="LAST_COMMIT_MESSAGE" value="Presenter fa update corretto" />
   </component>
 </project>

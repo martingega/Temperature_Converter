@@ -5,6 +5,8 @@ import it.unimi.di.sweng.temperature.model.Model;
 import it.unimi.di.sweng.temperature.view.View;
 import org.jetbrains.annotations.NotNull;
 
+import java.util.Locale;
+
 public class TempPresenter implements Presenter {
     private final Model model;
     private final View view;
@@ -19,7 +21,7 @@ public class TempPresenter implements Presenter {
     @Override
     public void update(@NotNull Observable<Double> subject, @NotNull Double state) {
         double scaledTemp = scale.convertFromCelsius(state);
-        view.setValue(Double.toString(scaledTemp));
+        view.setValue(String.format(Locale.US,"%.2f", scaledTemp));
     }
 
     @Override

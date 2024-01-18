@@ -44,5 +44,21 @@ class PresenterTest {
         verify(view).setValue("2222.44");
     }
 
+    @Test
+    void update2DigitTest() {
+
+        View view = mock(View.class);
+        ScaleStrategy scale = mock(ScaleStrategy.class);
+        when(scale.convertFromCelsius(4422.22)).thenReturn(2222.4);
+        Model model = mock(Model.class);
+
+        Presenter SUT = new TempPresenter(model, view, scale);
+
+        SUT.update(model, 4422.22);
+
+        verify(scale).convertFromCelsius(4422.22);
+        verify(view).setValue("2222.40");
+    }
+
 }
 
