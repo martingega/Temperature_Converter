@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d8e56c89-f016-47d6-8363-f4fb7e11b880" name="Changes" comment="inserita banale non conversione di scale come NULL object" />
+    <list default="true" id="d8e56c89-f016-47d6-8363-f4fb7e11b880" name="Changes" comment="commit unversioned files" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +14,13 @@
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -34,7 +41,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Gradle.FahrenheitScaleTest">
+  <component name="RunManager" selected="Gradle.PresenterTest">
     <configuration name="FahrenheitScaleTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -58,7 +65,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="TestModel" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="PresenterTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -71,7 +78,30 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;it.unimi.di.sweng.temperature.model.TestModel&quot;" />
+            <option value="&quot;it.unimi.di.sweng.temperature.model.PresenterTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="PresenterTest.updateModel" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;it.unimi.di.sweng.temperature.model.PresenterTest.updateModel&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -127,36 +157,13 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="TestModel.testSetterGetter" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;it.unimi.di.sweng.temperature.model.TestModel.testSetterGetter&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.PresenterTest" />
+        <item itemvalue="Gradle.PresenterTest.updateModel" />
         <item itemvalue="Gradle.FahrenheitScaleTest" />
         <item itemvalue="Gradle.TestModel.testNotifyObserversOnlyIfChanged" />
         <item itemvalue="Gradle.TestModel.testNotifyObservers" />
-        <item itemvalue="Gradle.TestModel" />
-        <item itemvalue="Gradle.TestModel.testSetterGetter" />
       </list>
     </recent_temporary>
   </component>
@@ -211,7 +218,28 @@
       <option name="project" value="LOCAL" />
       <updated>1705576491335</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="funzionano conversioni">
+      <created>1705576786896</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1705576786896</updated>
+    </task>
+    <task id="LOCAL-00008" summary="implementato SINGLETON pattern per Fahrenheit strategy">
+      <created>1705576887963</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1705576887963</updated>
+    </task>
+    <task id="LOCAL-00009" summary="commit unversioned files">
+      <created>1705576905421</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1705576905421</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -232,6 +260,9 @@
     <MESSAGE value="non viene chiamato update se stesso valore di temp" />
     <MESSAGE value="REFACTORING: eliminato numero magico precisione" />
     <MESSAGE value="inserita banale non conversione di scale come NULL object" />
-    <option name="LAST_COMMIT_MESSAGE" value="inserita banale non conversione di scale come NULL object" />
+    <MESSAGE value="funzionano conversioni" />
+    <MESSAGE value="implementato SINGLETON pattern per Fahrenheit strategy" />
+    <MESSAGE value="commit unversioned files" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit unversioned files" />
   </component>
 </project>
