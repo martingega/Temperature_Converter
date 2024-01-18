@@ -38,7 +38,6 @@ public class TestModel {
   }
 
   @Test
-  @Disabled
   public void testNotifyObserversOnlyIfChanged() {
     Observer<Double> obs =  mock(Observer.class);
     Observer<Double> obs1 = mock(Observer.class);

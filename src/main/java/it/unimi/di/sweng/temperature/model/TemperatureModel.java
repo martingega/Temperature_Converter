@@ -34,10 +34,9 @@ public class TemperatureModel implements Model {
 
   @Override
   public void setTemp(double temp) {
-    val = temp;
-    notifyObservers();
+    if (Math.abs(val - temp) >= 0.01) {
+      val = temp;
+      notifyObservers();
+    }
   }
-
-  //TODO implementare i doveri ereditati dalla interfaccia
-
 }
