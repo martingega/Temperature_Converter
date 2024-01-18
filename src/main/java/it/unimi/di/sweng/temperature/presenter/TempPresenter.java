@@ -16,6 +16,8 @@ public class TempPresenter implements Presenter {
         this.model = model;
         this.view = view;
         this.scale = scale;
+        view.addHandlers(this);
+        model.addObserver(this);
     }
 
     @Override

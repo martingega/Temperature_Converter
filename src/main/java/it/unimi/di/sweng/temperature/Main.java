@@ -1,6 +1,11 @@
 package it.unimi.di.sweng.temperature;
 
 import it.unimi.di.sweng.temperature.model.Model;
+import it.unimi.di.sweng.temperature.model.TemperatureModel;
+import it.unimi.di.sweng.temperature.presenter.FahrenheitScale;
+import it.unimi.di.sweng.temperature.presenter.Presenter;
+import it.unimi.di.sweng.temperature.presenter.ScaleStrategy;
+import it.unimi.di.sweng.temperature.presenter.TempPresenter;
 import it.unimi.di.sweng.temperature.view.MyTextView;
 import javafx.application.Application;
 import javafx.geometry.Insets;
@@ -34,7 +39,10 @@ public class Main extends Application {
 
     Model model;
 
-    // TODO creare il model e i presenter in maniera opportuna
+    model = new TemperatureModel();
+
+    Presenter celsiusPresenter = new TempPresenter(model, celsiusField, ScaleStrategy.NO_SCALE);
+    Presenter fahrenheitPresenter = new TempPresenter(model, fahrenheitField, FahrenheitScale.INSTANCE);
 
     Scene scene = new Scene(gridPane);
     stage.setScene(scene);

@@ -71,8 +71,8 @@
     "RunOnceActivity.ShowReadmeOnStart": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Gradle.PresenterTest">
-    <configuration name="FahrenheitScaleTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.IntegrationTest">
+    <configuration name="IntegrationTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -83,9 +83,9 @@
         </option>
         <option name="taskNames">
           <list>
-            <option value=":test" />
+            <option value=":integrationTest" />
             <option value="--tests" />
-            <option value="&quot;it.unimi.di.sweng.temperature.model.FahrenheitScaleTest&quot;" />
+            <option value="&quot;it.unimi.di.sweng.temperature.IntegrationTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -189,11 +189,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.IntegrationTest" />
         <item itemvalue="Gradle.PresenterTest" />
         <item itemvalue="Gradle.PresenterTest.update2DigitTest" />
         <item itemvalue="Gradle.PresenterTest.updateTest" />
         <item itemvalue="Gradle.PresenterTest.updateModel" />
-        <item itemvalue="Gradle.FahrenheitScaleTest" />
       </list>
     </recent_temporary>
   </component>
