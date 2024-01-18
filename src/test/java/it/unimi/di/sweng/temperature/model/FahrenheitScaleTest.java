@@ -12,7 +12,7 @@ class FahrenheitScaleTest {
     @ParameterizedTest
     @CsvSource({"0, 32", "21, 69.8", "-7, 19.4"})
     void convertFromCelsius(double c, double f) {
-        ScaleStrategy SUT = new FahrenheitScale();
+        ScaleStrategy SUT = FahrenheitScale.INSTANCE;
         assertThat(SUT.convertToCelsius(32))
                 .isCloseTo(0, Offset.offset(TemperatureModel.PRECISION));
     }
@@ -20,7 +20,7 @@ class FahrenheitScaleTest {
     @ParameterizedTest
     @CsvSource({"0, 32", "21, 69.8", "-7, 19.4"})
     void convertToCelsius(double c, double f) {
-        ScaleStrategy SUT = new FahrenheitScale();
+        ScaleStrategy SUT = FahrenheitScale.INSTANCE;
         assertThat(SUT.convertToCelsius(f))
                 .isCloseTo(c, Offset.offset(TemperatureModel.PRECISION));
     }

@@ -1,6 +1,9 @@
 package it.unimi.di.sweng.temperature.presenter;
 
-public class FahrenheitScale implements ScaleStrategy{
+public enum FahrenheitScale implements ScaleStrategy{
+
+    INSTANCE;
+
     @Override
     public double convertFromCelsius(double temperature) {
         return (temperature * 9.0 / 5.0) + 32;
